@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service - FlipSight</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #0A0A0F;
+      color: #E0E0E8;
+      line-height: 1.7;
+      padding: 0 16px;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 0 80px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+    }
+    .last-updated {
+      font-size: 13px;
+      color: #8A8A9A;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-top: 32px;
+      margin-bottom: 12px;
+    }
+    p, ul {
+      font-size: 15px;
+      color: #B0B0BE;
+      margin-bottom: 16px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    strong {
+      color: #FFFFFF;
+      font-weight: 600;
+    }
+    a {
+      color: #4A9EFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .logo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #4A9EFF;
+      margin-bottom: 32px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="logo">FlipSight</a>
+    <h1>Terms of Service</h1>
+    <p class="last-updated">Last updated: February 28, 2026</p>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>By downloading, installing, or using FlipSight ("the App"), you agree to be bound by these Terms of Service. If you do not agree, do not use the App.</p>
+
+    <h2>2. Description of Service</h2>
+    <p>FlipSight is a resale assistant app that uses AI to identify items, estimate market prices, and provide deal analysis. The App helps users find items to buy and resell for profit.</p>
+
+    <h2>3. Price Estimates Disclaimer</h2>
+    <p><strong>All prices shown in FlipSight are AI-generated estimates and should not be considered financial advice.</strong></p>
+    <ul>
+      <li>Price estimates are based on recent market data and may not reflect current market conditions.</li>
+      <li>Actual selling prices may differ significantly from estimates.</li>
+      <li>FlipSight does not guarantee any profit from reselling activities.</li>
+      <li>Always verify prices independently on marketplace platforms before making purchasing decisions.</li>
+      <li>You assume all risk associated with buying and reselling items.</li>
+    </ul>
+
+    <h2>4. User Accounts</h2>
+    <ul>
+      <li>You are responsible for maintaining the confidentiality of your account.</li>
+      <li>You must provide accurate information during registration.</li>
+      <li>You are responsible for all activity under your account.</li>
+      <li>You must be at least 13 years old to use the App.</li>
+    </ul>
+
+    <h2>5. Subscriptions &amp; Payments</h2>
+    <ul>
+      <li>FlipSight offers free and paid subscription tiers.</li>
+      <li>Subscriptions are billed through Apple App Store or Google Play Store.</li>
+      <li>Subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period.</li>
+      <li>Refunds are handled according to the respective app store policies.</li>
+      <li>We reserve the right to modify pricing with reasonable notice.</li>
+    </ul>
+
+    <h2>6. Acceptable Use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Use the App for any illegal purpose.</li>
+      <li>Attempt to reverse-engineer or tamper with the App.</li>
+      <li>Use automated tools to scrape data from the App.</li>
+      <li>Share your account credentials with others.</li>
+      <li>Upload harmful, offensive, or misleading content.</li>
+      <li>Interfere with the App's operation or other users' experience.</li>
+    </ul>
+
+    <h2>7. Intellectual Property</h2>
+    <p>All content, features, and functionality of FlipSight are owned by us and protected by copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, or create derivative works without our written consent.</p>
+
+    <h2>8. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by law, FlipSight shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from:</p>
+    <ul>
+      <li>Your use of or inability to use the App.</li>
+      <li>Inaccurate price estimates or deal recommendations.</li>
+      <li>Financial losses from reselling activities.</li>
+      <li>Unauthorized access to your account.</li>
+      <li>Any third-party content or services.</li>
+    </ul>
+
+    <h2>9. Account Termination</h2>
+    <p>We may suspend or terminate your account at any time for violations of these terms. You may delete your account at any time through the Profile settings, which will permanently remove all your data.</p>
+
+    <h2>10. Changes to Terms</h2>
+    <p>We reserve the right to modify these terms at any time. We will notify you of material changes through the App. Your continued use after changes constitutes acceptance of the modified terms.</p>
+
+    <h2>11. Contact</h2>
+    <p>For questions about these Terms of Service, contact us at:<br><a href="mailto:support@flipsight.app">support@flipsight.app</a></p>
+  </div>
+</body>
+</html>
