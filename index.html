@@ -58,14 +58,22 @@
       align-items: center;
       justify-content: space-between;
     }
-    .nav-logo {
-      font-size: 20px;
-      font-weight: 800;
-      color: #fff;
-      text-decoration: none;
-      letter-spacing: -0.5px;
-    }
-    .nav-logo span { color: var(--green); }
+.nav-logo {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+
+.flip {
+  color: #fff;
+}
+
+.sight {
+  color: var(--green); /* #4A9B7F */
+}
+   
     .nav-links { display: flex; gap: 28px; align-items: center; }
     .nav-links a {
       font-size: 14px;
@@ -363,7 +371,9 @@
   <!-- NAV -->
   <nav>
     <div class="nav-inner">
-      <a href="/" class="nav-logo">Flip<span>Sight</span></a>
+     <a href="/" class="nav-logo">
+  <span class="flip">Flip</span><span class="sight">Sight</span>
+</a>
       <div class="nav-links">
         <a href="#features">Features</a>
         <a href="#how">How It Works</a>
@@ -481,7 +491,9 @@
   <!-- FOOTER -->
   <footer>
     <div class="footer-inner">
-      <div class="footer-left">&copy; 2026 FlipSight. All rights reserved.</div>
+     <div class="footer-left">
+  &copy; 2026 <span class="flip">Flip</span><span class="sight">Sight</span>. All rights reserved.
+</div>
       <div class="footer-links">
         <a href="/privacy.html">Privacy Policy</a>
         <a href="/terms.html">Terms of Service</a>
