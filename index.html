@@ -346,7 +346,7 @@
       .cta-box { padding: 40px 24px; }
       .hero { padding-top: 100px; }
     }
-    .screenshots {
+    ..screenshots {
   padding: 60px 20px;
   text-align: center;
 }
@@ -354,14 +354,25 @@
 .screens-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 24px;
   flex-wrap: wrap;
 }
 
-.screens-container img {
-  width: 250px;
-  border-radius: 20px;
+.screen-item {
+  text-align: center;
+}
+
+.screen-item img {
+  width: 220px;
+  border-radius: 18px;
+  border: 1px solid var(--border);
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.screen-item p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: var(--text-muted);
 }
 
   </style>
@@ -405,9 +416,20 @@
 <section class="screenshots">
   <div class="screens-container">
 
-    <img src="screen1.png" alt="Scan item">
-    <img src="screen2.png" alt="Analyze value">
-    <img src="screen3.png" alt="FlipIQ score">
+      <div class="screen-item">
+      <p>Scan any item</p>
+      <img src="screen1.png" alt="Scan item">
+    </div>
+
+    <div class="screen-item">
+      <p>See real market value</p>
+      <img src="screen2.png" alt="Value">
+    </div>
+
+    <div class="screen-item">
+      <p>Get your FlipIQ score</p>
+      <img src="screen3.png" alt="Score">
+    </div>
 
   </div>
 </section>
