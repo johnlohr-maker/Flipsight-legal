@@ -97,15 +97,20 @@
     .hero::before {
       content: '';
       position: absolute;
-      top: -20%;
+      top: -120px;
       left: 50%;
       transform: translateX(-50%);
       width: 600px;
       height: 600px;
-      background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(74,155,127,0.15) 0%, transparent 70%);
       pointer-events: none;
+      z-index: 0;
+}
+    .hero-content { 
+      position: relative;
+      z-index: 1;
+      max-width: 680px;
     }
-    .hero-content { position: relative; max-width: 680px; }
     .hero-badge {
       display: inline-flex;
       align-items: center;
@@ -139,7 +144,7 @@
       margin-bottom: 20px;
     }
     .hero h1 .highlight {
-      background: linear-gradient(135deg, var(--accent), #818CF8);
+      background: linear-gradient(135deg, var(--accent), #6EE7B7);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -169,7 +174,7 @@
       box-shadow: 0 8px 30px rgba(255,255,255,0.1);
     }
     .hero-cta svg { width: 20px; height: 20px; }
-
+ 
     /* FEATURES */
     .features {
       padding: 80px 24px 100px;
@@ -430,7 +435,7 @@
         <span class="dot"></span>
         AI-Powered Resale Tool
       </div>
-      <h1>Find profitable flips.<br><span class="highlight">In seconds.</span></h1>
+      <h1>Find profitable flips<br><span class="highlight">In seconds.</span></h1>
       <p>Scan items and instantly see resale value, profit potential and your FlipIQ score.</p>
       <section class="proof">
   <h2>$8 → $42 flip</h2>
