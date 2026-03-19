@@ -113,6 +113,7 @@
       position: relative;
       z-index: 2;
       max-width: 680px;
+      padding: 0 10px;
     }
     .hero-badge {
       display: inline-flex;
@@ -147,7 +148,7 @@
       margin-bottom: 20px;
     }
     .hero h1 .highlight {
-      background: linear-gradient(135deg, var(--green), #6EE7B7);
+      background: linear-gradient(135deg, #4A9B7F, #6EE7B7);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -162,31 +163,24 @@
       display: inline-flex;
       align-items: center;
       gap: 10px;
-      background: var(--green);
-      color: #ffffff;
+      background: linear-gradient(135deg, #4A9B7F, #6EE7B7);
+      color: #042018;
       font-size: 16px;
       font-weight: 700;
       padding: 14px 32px;
       border-radius: 14px;
       text-decoration: none;
+      box-shadow: 0 10px 30px rgba(74,155,127,0.35);
       transition: transform 0.2s ease;
     }
     .hero-cta:hover {
       transform: translateY(-2px);
-      box-shadow: 0 10px 30px rgba(74,155,127,0.4);
+      box-shadow: 0 14px 40px rgba(74,155,127,0.5);
     }
     .hero-cta svg {
       width: 20px; 
       height: 20px;
       fill: currentColor;
-    }
-
-    .hero-proof {
-      font-size: 16px;
-      color: var(--green);
-      margin-top: -10px;
-      margin-bottom: 20px;
-      font-weight: 600;
     }
  
     /* FEATURES */
@@ -464,8 +458,8 @@
       <h1>Find profitable flips<br><span class="highlight">Know before you buy.</span></h1>
       <p>Scan items and instantly see resale value, profit potential and your FlipIQ score.</p>
       <section class="proof">
-  <p class="hero-proof">
-  $8 → $42 flip • FlipIQ score: 125
+  <p style="margin-top: -10px; margin-bottom: 24px; font-size: 15px; color: #9CA3AF;">
+    <span style="color:#4A9B7F; font-weight:600;">$8 → $42 flip</span>span> • FlipIQ score: 125
 </p>
   </p>
 </section>
