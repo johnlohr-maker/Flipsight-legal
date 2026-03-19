@@ -322,6 +322,41 @@
       color: var(--text-muted);
       line-height: 1.65;
     }
+    /* WALKTHROUGH */
+.walkthrough {
+  padding: 100px 24px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.walkthrough-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.walk-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.walk-images {
+  display: flex;
+  gap: 12px;
+}
+
+.walk-images img {
+  width: 140px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.walk-text {
+  max-width: 420px;
+}
 
     /* CTA */
     .cta-section {
@@ -503,7 +538,52 @@
 
   </div>
 </section>
+  
+<section class="walkthrough">
+  <div class="section-label">How It Works</div>
+  <h2>From scan to profit in seconds</h2>
 
+  <div class="walkthrough-steps">
+
+    <!-- STEP 1 -->
+    <div class="walk-step">
+      <div class="walk-images">
+        <img src="scan.png">
+        <img src="barcode.png">
+        <img src="url.png">
+      </div>
+      <div class="walk-text">
+        <h3>1. Scan anything</h3>
+        <p>Use your camera, barcode, or a URL to instantly identify any product in seconds.</p>
+      </div>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="walk-step">
+      <div class="walk-images">
+        <img src="flipiq.png">
+        <img src="market.png">
+      </div>
+      <div class="walk-text">
+        <h3>2. Understand the deal</h3>
+        <p>See FlipIQ score, demand, sell-through rate, and key insights so you know if it’s worth buying.</p>
+      </div>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="walk-step">
+      <div class="walk-images">
+        <img src="price.png">
+        <img src="ebay.png">
+      </div>
+      <div class="walk-text">
+        <h3>3. Validate with real data</h3>
+        <p>Compare sold listings and platform prices so you can buy with confidence.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
 <!-- FEATURES -->
 <section class="features" id="features">
 
