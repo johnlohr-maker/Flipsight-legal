@@ -341,6 +341,9 @@
   justify-content: space-between;
   gap: 40px;
 }
+    .walk-step:nth-child(even) {
+  flex-direction: row-reverse;
+}
 
 .walk-images {
   display: flex;
@@ -362,7 +365,7 @@
 }
 @media (max-width: 768px) {
   .walk-step {
-    flex-direction: column;
+    flex-direction: column; !important;
     text-align: center;
   }
 
@@ -379,6 +382,10 @@
   .walk-text {
     max-width: 100%;
   }
+}
+    /* Alternating layout */
+.walk-step:nth-child(even) {
+  flex-direction: row-reverse;
 }
     /* CTA */
     .cta-section {
