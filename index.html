@@ -340,6 +340,21 @@
   align-items: center;
   justify-content: space-between;
   gap: 40px;
+
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--border);
+
+  opacity: 0.95;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.walk-step:last-child {
+  border-bottom: none;
+}
+
+.walk-step:hover {
+  opacity: 1;
+  transform: translateY(-2px);
 }
     .walk-step:nth-child(even) {
   flex-direction: row-reverse;
@@ -362,6 +377,17 @@
 
 .walk-text {
   max-width: 420px;
+}
+    .walk-step h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.walk-step p {
+  color: var(--text-muted);
+  line-height: 1.6;
 }
 @media (max-width: 768px) {
   .walk-step {
